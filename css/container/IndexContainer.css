@@ -1,0 +1,427 @@
+/*IndexContainer*/
+.container{
+  width: 100%;
+  height: auto;
+}
+.container .inner-container{
+  margin: 0 auto;
+}
+.container .inner-container .index{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid; */
+}
+.container .inner-container .index .sections{
+ /* border: 1px solid; */
+}
+/*section.sec1*/
+.container .inner-container .index .sections .section.sec1{
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con video{
+  width: 100%;
+  height: 100vh;
+  /* height: calc( 100vh - 20px); */
+  object-fit: cover;
+  display: block;
+  /* border-radius: 5px; */
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt h1.title{
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 20px 0;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt p{
+  line-height: 20px;
+  font-size: 24px;
+  padding: 20px 0;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .sec1-txt span.date{
+  line-height: 30px;
+  padding: 20px 0;
+  /* letter-spacing: 2px; */
+}
+/*section.sec2*/
+.container .inner-container .index .sections .section.sec2{
+  width: 100%;
+  height: auto;
+  background-color: rgb(202, 172, 144);
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con{
+  flex: 0 1 980px;
+  height: 1100px;
+  /* display: flex; */
+  box-sizing: border-box;
+  position: relative;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con h1.title{
+  color: rgb(117, 86, 56);
+  text-align: center;
+  padding: 40px 0;
+  line-height: 50px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .img-con{
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .img-con>ul>li{
+  flex: 0 1 980px;
+  height: 550px;
+  position: absolute;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .img-con>ul>li img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .bcon{
+  /* border: 1px solid; */
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .bcon .items{
+  flex: 0 1 150px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .bcon .items>ul{
+  display: flex;
+  justify-content: space-between;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .bcon .items>ul>li{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .bcon .items>ul>li:hover{
+  background-color: rgba(255, 255, 255, 0.534);
+}
+.on{
+  background-color: rgba(255, 255, 255, 0.534);
+}
+.container .inner-container .index .sections .section.sec2 .sec-con p{
+  flex: 0 1 980px;
+  padding: 40px 0;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con p.p1{
+  display: flex;
+  justify-content: start;
+  font-style: italic;
+  line-height: 30px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .btn-con{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .btn-con span.detail{
+  flex: 0 1 200px;
+  height: auto;
+  /* border: 1px solid; */
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .btn-con span.detail:hover{
+  background-color: rgb(252, 242, 232);
+  color: #222;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgb(43, 26, 11);
+}
+.container .inner-container .index .sections .section.sec2 .sec-con .btn-con span.detail:active{
+  background-color: rgb(252, 242, 232);
+  color: #222;
+  transform: scale(0.9);
+  box-shadow: 0 1px 2px rgb(43, 26, 11);
+  cursor: pointer;
+}
+/*section.sec3*/
+.container .inner-container .index .sections .section.sec3{
+  /* border: 1px solid; */
+}
+.container .inner-container .index .sections .section.sec3 .sec-con{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con video{
+  width: 100%;
+  height: 100vh;
+  /* height: calc( 100vh - 20px); */
+  object-fit: cover;
+  display: block;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt{
+  position: absolute;
+  z-index: 2;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: left;
+  line-height: 30px;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt h1.title{
+  font-size: 50px;
+  font-weight: lighter;
+  padding: 20px 0;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt p{
+  line-height: 20px;
+  font-size: 20px;
+  padding: 20px 0;
+  color: rgb(228, 215, 200);
+  transition: all 0.2s ease-out;
+}
+.container .inner-container .index .sections .section.sec3 .sec-con .sec3-txt p:hover{
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*section.sec4*/
+.container .inner-container .index .sections .section.sec4{
+  width: 100%;
+  height: auto;
+  background-color: rgb(207, 169, 142);
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con{
+  flex: 0 1 980px;
+  height: 980px;
+  /* display: flex; */
+  box-sizing: border-box;
+  position: relative;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con h1.title{
+  color: rgb(117, 86, 56);
+  text-align: center;
+  padding: 40px 0;
+  line-height: 50px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con{
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con>ul>li{
+  flex: 0 1 980px;
+  height: 550px;
+  position: absolute;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con>ul>li img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .sec4-txt{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .sec4-txt h1.title{
+  color: #fff;
+  text-align: center;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .sec4-txt p{
+  font-size: 20px;
+  color: rgb(228, 215, 200);
+  transition: all 0.2s ease-out;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .sec4-txt p:hover{
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  top: 50%;
+  margin-top: -20px;
+  /* border: 1px solid; */
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow{
+  display: block;
+  border: 2px solid rgba(255, 255, 255, 0.603);
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow.arrowLeft{
+  color: rgba(255, 255, 255, 0.767);
+  text-align: center;
+  font-size: 20px;
+  line-height: 18px;
+  transition: all 0.2s ease-in;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow.arrowLeft:hover{
+  color: rgba(48, 30, 16, 0.637);
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow.arrowRight{
+  color: rgba(255, 255, 255, 0.767);
+  text-align: center;
+  font-size: 20px;
+  line-height: 18px;
+  transition: all 0.2s ease-in;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow.arrowRight:hover{
+  color: rgba(48, 30, 16, 0.637);
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .center-btn span.arrow:hover{
+  background-color: rgba(255, 255, 255, 0.616);
+  cursor: pointer;
+  border: 1px solid rgba(48, 30, 16, 0.637);
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con{
+  flex: 0 1 980px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* left: 50%;
+  margin-left: -250px; */
+  left: calc( 50% - 270px);
+  bottom: -50%;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con>ul{
+  /* border: 1px solid; */
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con>ul>li{
+  padding: 20px 40px;
+  text-align: center;
+  line-height: 30px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con>ul>li h2.title{
+  color: rgb(117, 86, 56);
+  padding: 10px 0;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con>ul>li h2.title:nth-child(1):before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 70%;
+  left: 0;
+  background-color: rgba(173, 140, 106, 0.575);
+  margin-right: 40px;
+}
+.container .inner-container .index .sections .section.sec4 .sec-con .img-con .bottom-con>ul>li p{
+  color: rgb(63, 49, 35);
+  line-height: 30px;
+  font-style: italic;
+  padding: 20px 0;
+}
+/*section.sec5*/
+.container .inner-container .index .sections .section.sec5{
+  width: 100%;
+  height: auto;
+  background-color: rgb(228, 183, 141);
+  display: flex;
+  justify-content: center;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con{
+  padding: 50px 0;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con{
+  flex: 0 1 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con h1.title{
+  font-size: 40px;
+  text-align: center;
+  font-weight: lighter;
+  color: #fff;
+  line-height: 20px;
+  padding: 10px 0;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con p{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(255, 234, 225);
+  padding: 40px 0;
+  line-height: 20px;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con span.pouBtn{
+  flex: 0 1 40px;
+  height: auto;
+  padding-top: 20px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con span.pouBtn:hover{
+  background-color: rgb(252, 242, 232);
+  color: #222;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgb(43, 26, 11);
+}
+.container .inner-container .index .sections .section.sec5 .sec-con .sec5-con span.pouBtn:active{
+  background-color: rgb(252, 242, 232);
+  color: #222;
+  transform: scale(0.9);
+  box-shadow: 0 1px 2px rgb(43, 26, 11);
+  cursor: pointer;
+}
+/*반응형*/
+@media only screen and (max-width: 959px){
+  .container .inner-container .index .sections .section.sec1 .sec-con{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 640px){
+  
+
+}
